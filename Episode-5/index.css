@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.logo{
+  width: 200px;
+}
+.nav-items{
+  padding: 0px 20px;
+}
+
+.nav-items >ul{
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card{
+  padding: 5px;
+  margin: 10px;
+  width: 250px;
+  border: 1px solid black;
+}
+.filter{
+  padding: 10px;
+}
+.res-logo{
+  width: 100%;
+}
+.res-card >h2,h3,h4{
+  padding: 5px;
+}
+.filter-btn{
+  margin: 10px;
+}
